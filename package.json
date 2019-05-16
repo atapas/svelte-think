@@ -1,0 +1,25 @@
+{
+  "name": "svelte-think",
+  "version": "1.0.0",
+  "description": "Project to learn Sveltejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atapas/svelte-think.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "sveltejs",
+    "compiler"
+  ],
+  "author": "Tapas Adhikary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atapas/svelte-think/issues"
+  },
+  "homepage": "https://github.com/atapas/svelte-think#readme"
+}
