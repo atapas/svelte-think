@@ -1,15 +1,28 @@
 <script>
-	export let greeting, src;
+	import Post from './Post.svelte';
+	
+	let count = 0;
+	function createPost() {
+		console.log('Create post');
+		let post = new Post({
+			target: document.querySelector('.posts')
+		});
+		count += 1;
+	}
 </script>
 
 <style>
-	h1 {
-		color: purple;
-	}
+	
 </style>
 
-<h1>{greeting}</h1>
-<img src={src} alt="logo" style="width:300px;"/>
-<div >
-	<a href="https://svelte.dev/tutorial/basics" target="_blank">Getting Started with SvelteJS!</a>
+
+<div>
+	<span>Total number of posts: {count}</span>
+	<button on:click={createPost}>Generate</button>
+	
+	<div class="posts">
+		
+	</div>
 </div>
+
+
