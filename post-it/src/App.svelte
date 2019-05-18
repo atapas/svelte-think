@@ -17,8 +17,8 @@
 
 
 <div>
-	<span>Total number of posts: {count}</span>
-	<button on:click={createPost}>Generate</button>
+	<h1> Thought Quotes({count})! </h1>
+	<button on:click={createPost}>Get a New One!</button>
 	
 	<div class="posts">
 		

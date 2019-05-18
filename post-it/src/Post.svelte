@@ -23,17 +23,12 @@
     text-align:center;     
     width: 275px;    
     margin: 25px;    
-    min-height: 50px;
-    max-height: 200px;
-    padding:35px;
+    min-height: 100px;
+    max-height: 100px;
+    padding: 35px;
     position:relative;   
     border:1px solid #E8E8E8;  
     border-top:60px solid #fdfd86;
-    font-family: 'Indie Flower', cursive;
-    font-family: 'Give You Glory', cursive;
-    font-family: 'The Girl Next Door', cursive;
-    font-family: 'Gloria Hallelujah', cursive;
-    font-size:22px;      
     border-bottom-right-radius: 60px 5px;
     display:inline-block;    
     background: #ffff88; /* Old browsers */
@@ -45,8 +40,18 @@
     background: linear-gradient(135deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffffc6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   }
+
+  .note {
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Give You Glory', cursive;
+    font-family: 'The Girl Next Door', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 15px;
+    min-height: 50px;
+    max-height: 50px;
+  }
 </style>
 
 <div class="postit">
-  <span>{randomPost}</span>
+  <span class="note">{randomPost}</span>
 </div>
